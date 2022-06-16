@@ -1,9 +1,11 @@
 div.s{
     box-shadow:blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
+    margin: 20px;
 }
 
 div.b{
     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
+    margin: 20px;
 }
 
 div.nidasi{
@@ -23,10 +25,10 @@ div.nidasi{
     justify-content: center;
 
     /* Background color */
-    background-color: rgb(75, 72, 224);
+    background-color: rgb(127, 185, 224);
 
     /* Size */
-    height: 32px;
+    height: 40px;
 
     /* Use to position the corners */
     position: relative;
@@ -40,18 +42,18 @@ div.nidasi{
     z-index: -1;
 
     /* Background */
-    border: 16px solid #ccc;
+    border: 16px solid rgb(127, 185, 224);
     border-left-color: transparent;
 }
 
 .container__side--left {
     /* Position */
-    left: -24px;
+    left: -20px;
 }
 
 .container__side--right {
     /* Position */
-    right: -24px;
+    right: -20px;
 }
 
 .container__triangle {
@@ -60,7 +62,7 @@ div.nidasi{
 
     border: 8px solid transparent;
     border-bottom-width: 0;
-    border-top-color: #aaa;
+    border-top-color: rgb(127, 185, 224);
 }
 
 .container__triangle--left {
