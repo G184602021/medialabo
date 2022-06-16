@@ -1,0 +1,74 @@
+div.s{
+    box-shadow:blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
+}
+
+div.b{
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
+}
+
+div.nidasi{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: auto 0px;
+    grid-gap: 20px; 
+    width: auto;
+
+   
+}
+/*見出し*/
+.container {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Background color */
+    background-color: rgb(75, 72, 224);
+
+    /* Size */
+    height: 32px;
+
+    /* Use to position the corners */
+    position: relative;
+}
+
+.container__side {
+    bottom: -8px;
+    position: absolute;
+
+    /* Displayed under the container */
+    z-index: -1;
+
+    /* Background */
+    border: 16px solid #ccc;
+    border-left-color: transparent;
+}
+
+.container__side--left {
+    /* Position */
+    left: -24px;
+}
+
+.container__side--right {
+    /* Position */
+    right: -24px;
+}
+
+.container__triangle {
+    position: absolute;
+    top: 100%;
+
+    border: 8px solid transparent;
+    border-bottom-width: 0;
+    border-top-color: #aaa;
+}
+
+.container__triangle--left {
+    border-right-width: 0;
+    left: 0;
+}
+
+.container__triangle--right {
+    border-left-width: 0;
+    right: 0;
+}
