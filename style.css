@@ -1,12 +1,55 @@
-div.s{
-    box-shadow:blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
-    margin: 20px;
+div.yohaku{
+    padding: 50px;
 }
 
-div.b{
-    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px;
-    margin: 20px;
+/*本テーマの学習目的*/
+div.s{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
 }
+.s:before, .s:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.s:before {left: 10px;}
+.s:after {right: 10px;}
+.s p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*プロジェクト課題*/
+div.b{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.b:before, .b:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.b:before {left: 10px;}
+.b:after {right: 10px;}
+.b p {
+    margin: 0; 
+    padding: 0;
+}
+
 
 div.nidasi{
     display: grid;
@@ -17,60 +60,68 @@ div.nidasi{
 
    
 }
-/*見出し*/
-.container {
-    /* Center the content */
-    align-items: center;
-    display: flex;
-    justify-content: center;
+/*webコンテナンツ作成成果*/
+div.tatle{
+color: #030816;/*文字色*/
+  padding: auto 0;/*上下の余白*/
+  border-top: solid 3px #060912;/*上線*/
+  border-bottom: solid 3px #030509;/*下線*/
+}
 
-    /* Background color */
-    background-color: rgb(127, 185, 224);
-
-    /* Size */
-    height: 40px;
-
-    /* Use to position the corners */
+/*毎回の講義　枠*/
+div.soto{
+    margin:2em 0;
     position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
 }
-
-.container__side {
-    bottom: -8px;
+.soto:before, .soto:after{
+    content: '';
     position: absolute;
-
-    /* Displayed under the container */
-    z-index: -1;
-
-    /* Background */
-    border: 16px solid rgb(127, 185, 224);
-    border-left-color: transparent;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.soto:before {left: 10px;}
+.soto:after {right: 10px;}
+.soto p {
+    margin: 0; 
+    padding: 0;
 }
 
-.container__side--left {
-    /* Position */
-    left: -20px;
+ /*第一回の外枠 */
+div.ichi {
+    padding: 0.7em 1em;
+    margin:  0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.ichi p{
+    margin: 0; 
+    padding: 0;
 }
 
-.container__side--right {
-    /* Position */
-    right: -20px;
+div.re14{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.container__triangle {
-    position: absolute;
-    top: 100%;
-
-    border: 8px solid transparent;
-    border-bottom-width: 0;
-    border-top-color: rgb(127, 185, 224);
+div.re15{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.container__triangle--left {
-    border-right-width: 0;
-    left: 0;
+div.ka12{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.container__triangle--right {
-    border-left-width: 0;
-    right: 0;
+div.ka13{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka14{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
