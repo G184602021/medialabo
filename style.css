@@ -68,7 +68,7 @@ color: #030816;/*文字色*/
   border-bottom: solid 3px #030509;/*下線*/
 }
 
-/*毎回の講義　枠*/
+/*毎回の講義　枠 (1回)*/
 div.soto{
     margin:2em 0;
     position: relative;
@@ -93,7 +93,7 @@ div.soto{
 }
 
  /*第一回の外枠 */
-div.ichi {
+div.one {
     padding: 0.7em 1em;
     margin:  0;
     color: #5d627b;
@@ -101,7 +101,7 @@ div.ichi {
     border-top: solid 5px #5d627b;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
-.ichi p{
+.one p{
     margin: 0; 
     padding: 0;
 }
@@ -124,4 +124,51 @@ div.ka13{
 
 div.ka14{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ /*第2回の外枠 */
+ div.two {
+    padding: 0.7em 1em;
+    margin:  0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.two p{
+    margin: 0; 
+    padding: 0;
+}
+
+/*課題　外枠(2)*/
+div.re23{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+div.ka21{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka22{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka23{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/*第3回の外枠 */
+div.three {
+    padding: 0.7em 1em;
+    margin:  0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.three p{
+    margin: 0; 
+    padding: 0;
 }
