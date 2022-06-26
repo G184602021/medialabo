@@ -181,3 +181,26 @@ div.three {
     margin: 0; 
     padding: 0;
 }
+
+/*課題　外枠(3)*/
+div.re35{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+div.re36{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka31{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka32{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.ka33{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
