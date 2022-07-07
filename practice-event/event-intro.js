@@ -10,6 +10,9 @@ b1.addEventListener('click', changeH1ColorRed);
 ////////////////////////////////////////////////////////
 // 2. イベントハンドラ（イベントが発生したら実行する関数）
 
+let b2 = document.querySelector('button#random');
+b2.addEventListener('click',changeBackgroundColorRandom);
+
 function changeH1ColorRed() {
 	// 見出し h1 要素を検索
 	let h1 = document.querySelector('h1');

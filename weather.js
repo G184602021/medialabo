@@ -50,3 +50,15 @@ let data = {
 console.log(data.name);
 console.log(data.main.temp_max);
 console.log(data.main.temp_min);
+
+function clickBtn1(){
+  const language = document.form1.language;
+
+  const num = language.selectedIndex;
+
+  const str = language.options[num].value;
+
+  let kuni = document.querySelector('span#kuni'); 
+  kuni.textContent=str;
+
+}

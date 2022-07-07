@@ -4,10 +4,17 @@
     background-image: linear-gradient(90deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
   }
 
-  .j {
-    text-align: center;
-  }
+  
   .haikei{
      text-align: center;
 
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form1{
+    margin-left: o;
   }
