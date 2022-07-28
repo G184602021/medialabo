@@ -8,6 +8,7 @@
   .haikei{
      text-align: center;
 
+
   }
 
   table {
@@ -18,3 +19,14 @@
   .form1{
     margin-left: o;
   }
+  .aa{
+    display: block;
+  }
+  
+  .a{
+    font-size: 150%;
+  }
+
+.x{
+  font-size: 170%;
+}

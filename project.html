@@ -5,43 +5,83 @@
     <title>My test page</title>
     <link rel="stylesheet" href="project.css">
     <script src="weather.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
   </head>
   <body class="j">
+  <p>
+    <label for="  Cairo " class="aa">
+      <input type="radio" name="year" id="360630" value="3">
+      カイロ</label>
 
-    <form name="form1">
-      <select name="language">
-          <option value="カイロ">カイロ</option>
-          <option value="モスクワ ">モスクワ </option>
-          <option value=" 北京"> 北京</option>
-          <option value=" 東京">  東京</option>
-          <option value=" シンガポール">  シンガポール</option>
-          <option value=" シドニー"> シドニー</option>
-          <option value="  ロンドン"> ロンドン</option>
-          <option value=" パリ "> パリ </option>
-          <option value=" リオデジャネイロ"> リオデジャネイロ</option>
-          <option value="ニューヨーク">ニューヨーク</option>
-          <option value="ロサンゼルス ">ロサンゼルス </option>
+    <label for=" Moscow " class="aa">
+    <input type="radio" name="year" id="524901" value="3">
+   モスクワ </label>
 
-      </select>
-    </form>
+    <label for="Johannesburg" class="aa">
+    <input type="radio" name="year" id="993800" value="3">
+    ヨハネスブルク</label>
 
-    <input type="button" value="検索" onclick="clickBtn1()"/>
+    <label for="Beijing" class="aa">
+    <input type="radio" name="year" id="1816670" value="3">
+    北京</label>
+
+    <label for=" Tokyo" class="aa">
+    <input type="radio" name="year" id="1850147" value="3">
+     東京</label>
+
+
+     <label for="Singapore" class="aa">
+    <input type="radio" name="year" id="1880252" value="3">
+      シンガポール</label>
+
+
+    <label for="Sydney" class="aa">
+    <input type="radio" name="year" id="2147714" value="3">
+     シドニー</label>
+
+     <label for="London" class="aa">
+    <input type="radio" name="year" id="2643743" value="3">
+     ロンドン</label>
+
+
+     <label for=" Paris " class="aa">
+    <input type="radio" name="year" id="2968815" value="3">
+   パリ</label>
+
+
+   <label for=" Rio de Janeiro" class="aa">
+    <input type="radio" name="year" id="3451189" value="3">
+    リオデジャネイロ</label>
+
+    <label for="New York" class="aa">
+    <input type="radio" name="year" id="5128581" value="3">
+    ニューヨーク </label>
+
+    <label for="Los Angeles" class="aa">
+    <input type="radio" name="year" id="5368361" value="3">
+    ロサンゼルス</label>
+
+</p>
+
+<p><button id="answer">検索</button></p>
 
 
     <div class="haikei">
     <h1>世界の天気</h1>
-
+     
+    <div class="x">
     <h2><span id="kuni"></span></h2>
-    <table broder="1" class="a">
+    </div>
+    <table broder="1" class="a" cellspacing="10">
       <tr>
         <th>天気</th>
-        <th>平均気温</th>
+        <th>最高気温</th>
         <th>湿度</th>
       </tr>
       <tr>
-          <td>晴れ</td>
-          <td>19°</td>
-          <td>30%</td>
+          <td><span id="te"></span></td>
+          <td><span id="sa"></span>℃</td>
+          <td><span id="si"></span>%</td>
       </tr>
   </table>
     </div>
