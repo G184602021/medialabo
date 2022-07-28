@@ -266,7 +266,7 @@ div.five {
     padding: 0;
 }
 
-iv.re52{
+div.re52{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -286,4 +286,17 @@ div.ka52{
 
 div.ka53{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+div.six {
+    padding: 0.7em 1em;
+    margin:  0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.six p{
+    margin: 0; 
+    padding: 0;
 }
